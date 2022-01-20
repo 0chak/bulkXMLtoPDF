@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<p:FatturaElettronica versione="FPR12" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>04030410288</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>F120222424</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>02869160271</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>02869160271</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>CH&amp;F BERTOLINI SRL</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Forans, 2</Indirizzo>
+        <CAP>34076</CAP>
+        <Comune>ROMANS D'ISONZO</Comune>
+        <Provincia>GO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti>
+        <Telefono>0481-950720</Telefono>
+        <Email>chefgroup@legalmail.it</Email>
+      </Contatti>
+      <RiferimentoAmministrazione>CASERMA A.OLTRAMONTI</RiferimentoAmministrazione>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00908900947</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>00908900947</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>GESTIONE ORIZZONTI SRL - CASERMA A.OLTRAMONTI</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>STRADA STATALE 85 KM 33 SNC</Indirizzo>
+        <CAP>86075</CAP>
+        <Comune>MONTERODUNI</Comune>
+        <Provincia>IS</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>04030410288</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>2C Solution S.R.L.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-11-29</Data>
+        <Numero>F12/0222424</Numero>
+        <ImportoTotaleDocumento>329.12</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>70440</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>CROIS.PLUS.PR.VUOTO C/GRANEL.GR72X55PZ ALM SURG.BAR 34000847</Descrizione>
+        <Quantita>2.00000</Quantita>
+        <UnitaMisura>UV</UnitaMisura>
+        <PrezzoUnitario>26.90000000</PrezzoUnitario>
+        <PrezzoTotale>53.80</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>75860</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>CROIS. PLUS PREL. ALB. GR87X55PZ ALM SURG. BAR (34000836)</Descrizione>
+        <Quantita>2.00000</Quantita>
+        <UnitaMisura>UV</UnitaMisura>
+        <PrezzoUnitario>31.20000000</PrezzoUnitario>
+        <PrezzoTotale>62.40</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>75870</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>CROIS. PLUS PREL. CREMA GR87X55PZ ALM SURG. BAR (34000818)</Descrizione>
+        <Quantita>2.00000</Quantita>
+        <UnitaMisura>UV</UnitaMisura>
+        <PrezzoUnitario>31.20000000</PrezzoUnitario>
+        <PrezzoTotale>62.40</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>75880</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>CROIS. PLUS PREL. CACAO GR87X55PZ ALM SURG. BAR (34001426)</Descrizione>
+        <Quantita>2.00000</Quantita>
+        <UnitaMisura>UV</UnitaMisura>
+        <PrezzoUnitario>32.30000000</PrezzoUnitario>
+        <PrezzoTotale>64.60</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>INTERNO</CodiceTipo>
+          <CodiceValore>93860</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>CONCHIGLIA  EXTRA NOCCIOLA GR85X50PZ ALM SURG.BAR(34002188)</Descrizione>
+        <Quantita>2.00000</Quantita>
+        <UnitaMisura>UV</UnitaMisura>
+        <PrezzoUnitario>28.00000000</PrezzoUnitario>
+        <PrezzoTotale>56.00</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <ImponibileImporto>299.20</ImponibileImporto>
+        <Imposta>29.92</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP01</ModalitaPagamento>
+        <DataRiferimentoTerminiPagamento>2021-11-29</DataRiferimentoTerminiPagamento>
+        <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+        <DataScadenzaPagamento>2021-11-29</DataScadenzaPagamento>
+        <ImportoPagamento>329.12</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>
