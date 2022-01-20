@@ -17,3 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/convert', 'App\Http\Controllers\FileController@processFiles');
